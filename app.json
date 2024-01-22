@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "StikerSmash",
-    "slug": "StikerSmash",
+    "name": "expo-react-native-element-placeholder",
+    "slug": "expo-react-native-element-placeholder",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

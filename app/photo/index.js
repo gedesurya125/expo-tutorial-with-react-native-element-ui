@@ -1,20 +1,21 @@
+// TODO : this file just example, hence can be removed
 import React from "react";
 import { StatusBar } from "expo-status-bar";
 import { Image, StyleSheet, Text, View, Platform } from "react-native";
-import { EmojiList, EmojiPicker, ImageViewer } from "./components";
-import Button from "./components/Button";
+import { EmojiList, EmojiPicker, ImageViewer } from "../../components";
+import Button from "../../components/Button";
 import * as ImagePicker from "expo-image-picker";
-import IconButton from "./components/IconButton";
-import CircleButton from "./components/CircleaButton";
-import EmojiSticker from "./components/EmojiSticker";
+import IconButton from "../../components/IconButton";
+import CircleButton from "../../components/CircleaButton";
+import EmojiSticker from "../../components/EmojiSticker";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 import * as MediaLibrary from "expo-media-library";
 import { captureRef } from "react-native-view-shot";
 import domtoimage from "dom-to-image";
-import { RNEThemeProvider } from "./theme";
+import { RNEThemeProvider } from "../../theme";
 import { Button as RNEButton } from "@rneui/themed";
 
-const PlaceholderImage = require("./assets/images/background-image.png");
+const PlaceholderImage = require("../../assets/images/background-image.png");
 
 export default function App() {
   const [selectedImage, setSelectedImage] = React.useState(null);
